@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/image/basket.jpg");
+    color: antiquewhite;
+    font-family: 'Pacifico', cursive;
+    background-size: contain;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.container h1 {
+    font-size: xx-large;
+    color: #AEC9E5;
+}
+
+.containertwo {
+    justify-content: space-around;
+    display: flex;
+
+    margin-top: 20px;
+    height: 200px;
+}
+
+.blackbox {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    background-color: #cfbaf0;
+    border-radius: 10px;
+    border: 2px solid gold;
+    display: block;
+    margin: auto;
+
+}
+
+.blackbox p {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Pacifico', cursive;
+    color: #073b4c;
+
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 80px;
+
+}
+
+.childofscore button {
+    display: inline-block;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.childofscore button:nth-child(1) {
+    background-color: #f08080;
+}
+
+.childofscore button:nth-child(2) {
+    background-color: #f4978e;
+}
+
+.childofscore button:nth-child(3) {
+    background-color: #f8ad9d;
+}
